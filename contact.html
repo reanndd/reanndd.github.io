@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Contact</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&amp;display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="logo">
+            <span>Home</span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="education.html">Education</a>
+                <a href="activity.html">Activity</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <h2>Reach Me</h2>
+      <div class="row">
+      <div class="col-md-7">
+          <div class="form_container">
+            <form action="">
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Phone number">
+              <input type="email" placeholder="Email">
+              <input type="text" placeholder="Message" class="message_input">
+              <button>
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="contact_box">
+            <a href="https://www.facebook.com/herwin.nurianapriansyah">
+              <div class="img-box">
+                <img src="images/facebook.svg" alt="facebook">
+              </div>
+              <h6>
+                Herwin Nurian Apriansyah
+              </h6>
+            </a>
+            <a href="https://www.instagram.com/herwinapr">
+              <div class="img-box">
+                <img src="images/instagram.svg" alt="instagram">
+              </div>
+              <h6>
+                @herwinapr
+              </h6>
+            </a>
+            <a href="https://twitter.com/reanndd">
+              <div class="img-box">
+                <img src="images/twitter.svg" alt="twitter">
+              </div>
+              <h6>
+                @reanndd
+              </h6>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 35,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+
+</body>
+
+</html>
